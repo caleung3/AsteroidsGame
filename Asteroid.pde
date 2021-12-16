@@ -23,6 +23,7 @@ class Asteroids extends Floater {
     myCenterY = (double)(Math.random()*600);
     myXspeed = (Math.random()*2)-1;
     myYspeed = (Math.random()*2)-1;
+    accelerate(0);
   }
   public void move()
   {
@@ -31,4 +32,4 @@ class Asteroids extends Floater {
   }
   public double getX(){return myCenterX;}
   public double getY(){return myCenterY;}
-}
+}    
